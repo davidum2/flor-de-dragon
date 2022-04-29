@@ -1,49 +1,18 @@
 import React from 'react'
+import Vid from '../assets/images/Video.mp4'
+import './Home.css'
 
 const Home = () => {
   return (
     <>
-    <div style={{height: 100}}>
-        <p>hola mi primera seccion</p>
+    <div className='container'>
+      <div className='video'>
+          <video className='video-background' autoPlay loop muted>
+            <source src={Vid} type="video/mp4" />
+          </video>
+      </div>
+
     </div>
-    <div style={{height: 100}}>
-    <p>hola mi primera seccion</p>
-</div> <div style={{height: 100}}>
-        <p>hola mi primera seccion</p>
-    </div>
-    <div style={{height: 100}}>
-    <p>hola mi primera seccion</p>
-</div> <div style={{height: 100}}>
-        <p>hola mi primera seccion</p>
-    </div>
-    <div style={{height: 100}}>
-    <p>hola mi primera seccion</p>
-</div> <div style={{height: 100}}>
-        <p>hola mi primera seccion</p>
-    </div>
-    <div style={{height: 100}}>
-    <p>hola mi primera seccion</p>
-</div> <div style={{height: 100}}>
-        <p>hola mi primera seccion</p>
-    </div>
-    <div style={{height: 100}}>
-    <p>hola mi primera seccion</p>
-</div> <div style={{height: 100}}>
-        <p>hola mi primera seccion</p>
-    </div>
-    <div style={{height: 100}}>
-    <p>hola mi primera seccion</p>
-</div> <div style={{height: 100}}>
-        <p>hola mi primera seccion</p>
-    </div>
-    <div style={{height: 100}}>
-    <p>hola mi primera seccion</p>
-</div> <div style={{height: 100}}>
-        <p>hola mi primera seccion</p>
-    </div>
-    <div style={{height: 100}}>
-    <p>hola mi primera seccion</p>
-</div>
 </>
   )
 }
