@@ -10,6 +10,7 @@ const Home = () => {
           <video className='video-background' autoPlay loop muted>
             <source src={Vid} type="video/mp4" />
           </video>
+          <div className='video-overlay'></div>
       </div>
 
     </div>

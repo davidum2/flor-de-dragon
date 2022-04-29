@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import "./Nav.css"
 import { FaBars } from "react-icons/fa";
+import Logo from "../assets/images/Logo.png"
 
 
 
@@ -19,7 +20,7 @@ const Nav = () => {
     return (
        <nav className={fixNavBar}>
            <div className='logo'>
-              Logo
+             LOGO
            </div>
            <ul className='menu'>
                <li><Link to="/">Home</Link></li>
