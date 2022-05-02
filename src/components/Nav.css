@@ -8,8 +8,8 @@
     color: #fff;
     padding: 1rem 10rem;
     transition: all 0.5s ease;
-    background:  rgba(0, 0, 0, 0.7);
-    z-index: 2;
+    /* background-color:  rgba(0, 0, 0, 0.7); */
+    z-index: 100;
 }
 
 .nav.active{
@@ -17,11 +17,11 @@
     padding: .5rem 9rem;
 }
 
-.nav.active .menu li{
+/* .nav.active .menu li{
  background-color: #000;
-}
+} */
 .nav.active .logo, .nav.active a{
-    background: #000;
+    
     color: rgb(252, 246, 246);
 }
 
@@ -32,19 +32,18 @@
 
 .logo{
     font-size: 35px;
-    background: rgba(0, 0, 0, 0.188);
     color:#fff;
     font-weight: 100;
+    z-index: 2;
 }
 .menu{
     font-size: 25px;
     display: flex;
-    background: rgba(0, 0, 0, 0.288);
+    z-index: 2;
     border-radius: 15px;
 }
 
 .menu li{
-    background: rgba(0, 0, 0, 0.288);
     padding: 15px;
     align-items: center;
     list-style: none;
@@ -52,7 +51,6 @@
 }
 
 .menu li  a {
-    background: rgba(0, 0, 0, 0.288);
     color: #fff;
     text-decoration: none;
     font-weight: bold;
@@ -90,7 +88,7 @@
         align-items: center;
         justify-content: center;
         transition: all .05s ease;
-        /* transform: translateX(-100%)   ; */
+        transform: translateX(-100%)   ; 
     }
 
     .menu li{
