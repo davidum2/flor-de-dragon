@@ -41,6 +41,15 @@
     z-index: 2;
 }
 
+
+.text-container{
+    border: solid 5px #000;
+    border-radius: 10px;
+    height: fit-content;
+    width: 40rem;
+    
+}
+
 .welcome-tex h1{
     z-index: 2;
 }

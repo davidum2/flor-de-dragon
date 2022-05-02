@@ -13,12 +13,21 @@ const Home = () => {
           <div className='video-overlay'></div>
 
           <div className='welcome-tex'>
+            <div className='text-container'>
             <h1>
-              Bienvenidos a Flor de Dragon
+              Flor de Dragon
             </h1>
             <h2>
-              Más de 10 años cudando a nuestros clientes
+              Terapias corporales
             </h2>
+            <h3>
+              Más de 10 años cudando con el corazón a nuestros clientes
+            </h3>
+            <br/>
+            <p>
+              En Flor de Dragón estamos comprometidos con la salud y felicidad de nuestros clientes, por eso ofrecemos terapias corporales que ayudan a sanar el cuerpo y el alma
+            </p>
+            </div>
           </div>
         </div>
         <div className='seccion'>
