@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Parisienne&family=Roboto:wght@700&display=swap');
+
+
 .container{
     
     align-items: center;
@@ -5,6 +8,7 @@
 
 }
 .seccion{
+    display: flex;
     height: 100vh;
     width: 100%;
     position: relative;   
@@ -14,8 +18,8 @@
     min-width: 100%;
     min-height: 100%;
     overflow: hidden;
-    height: 100vh;
-    width: 90vw;
+    height: 100%;
+    width: 100%;
     position:absolute;
     object-fit: cover;
     z-index: -1;
@@ -23,7 +27,7 @@
 }
 
 .video-overlay{
-    height: 100vh;
+    height: 100%;
     width: 100%;
     position:absolute;
     top: 0;
@@ -34,53 +38,67 @@
 }
 
 .welcome-tex{
+    display: flex;
     position: relative;
     margin: 0;
-    padding: 7.5rem 10rem;
+    padding: 1vh 7vh;
     align-content: center;
     z-index: 2;
+    width: 100vw;
 }
 
 .div-container{
+
     display: flex;
     flex-direction: row;
-    flex-grow: 2;
+    align-items: center;
+    height: 100%;
 }
 
 .text-left{
-    margin: 2px;
-    border: solid 5px rgb(6, 82, 112);
-    border-radius: 10px;
-    height: 25rem;
-    width: 50%;
-  
-    
+    margin: 1vh;
+    border: solid .5vh rgb(6, 82, 112);
+    border-radius: 5vh;
+    width: 45vw;
+    height: 70vh;
+
 }
 
 .text-right{
-    margin: 2px;
-    /* border: solid 5px rgb(255, 251, 251); */
-    border-radius: 10px;
-    height: 20rem;
-    width: 50%;
+    margin: 1vh;
+    
+    border-radius: 5vh;
+    width: 45vw;
+    height: 70vh;
+
 }
 
+
 .welcome-tex h1{
-    padding: 5px;
+    text-align: center;
+    font-family: 'Parisienne', cursive;
+    font-size: 7vh;
     z-index: 2;
 }
 
 .welcome-tex h2{
-    padding: 5px;
+    text-align: center;
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 3vh;
     z-index: 2;
 
 }
 .welcome-tex h3{
-    padding: 5px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 2vh;
     z-index: 2;
 }
 .welcome-tex p{
-    padding: 5px;
+    font-size: 2.5vh;
+    font-family: 'Roboto', sans-serif;
+    text-align: justify;
+    padding: 3vh;
     z-index: 2;
 }
 
@@ -94,12 +112,12 @@
     border: none;
     color: #7030a0;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-    margin: 15px;
-    padding: 15px 32px;
+    margin: 2.5vh;
+    padding: 1.5vh 3.2vh;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 2vh;
     font-weight: bold;
     transition: all 0.5s ease;
    
@@ -113,29 +131,27 @@
 
 @media screen and (max-width:1024px) {
 
-    .welcome-tex{
-        padding: 10rem 1rem;
-        align-content: center;
-        z-index: 2;
-    }
-    
-
+  
     .div-container{
+        margin-top: 10vh;
         display: flex;
         flex-direction: column;
-     }
-     .text-left{
-        margin: 2px;
-        /* border: solid 5px rgb(255, 251, 251); */
-        border-radius: 10px;
-        height: 20rem;
+        align-items: center;
+        height: 100vh;
         width: 100%;
-    }
-    .text-right{
-        margin: 2px;
-        /* border: solid 5px rgb(255, 251, 251); */
-        border-radius: 10px;
-        height: 20rem;
-        width: 100vw;
-    }
+     }
+
+     .text-left{
+         word-wrap: normal;
+         width: 100%;
+         height: 100%;
+     }
+     .text-right{
+         display: none;
+     }
+
+     .seccion{
+         height: 130vh;
+     }
+  
 }

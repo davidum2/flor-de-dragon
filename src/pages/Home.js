@@ -16,11 +16,12 @@ const Home = () => {
             <div className='div-container'>
               <div className='text-left'>
                 <h1>
-                  Flor de Dragon
+                  Flor de Dragón
                 </h1>
                 <h2>
                   Terapias corporales
                 </h2>
+                <br />
                 <h3>
                   Más de 10 años cudando con el corazón a nuestros clientes
                 </h3>
@@ -28,16 +29,15 @@ const Home = () => {
                 <p>
                   En Flor de Dragón estamos comprometidos con la salud y felicidad de nuestros clientes, por eso ofrecemos terapias corporales que ayudan a sanar el cuerpo y el alma
                 </p>
+                <p>
+                  Contamos con mas de una decada de servicio y cuidado de las personas que nos prefieren, aplicando diferentes terapias y una atencion personalizada</p>
                 <div className='btn-tex'>
                   <button className='btn'>Terapias</button>
                 </div>
-
-
               </div>
               <div className='text-right'>
-
+               
               </div>
-
             </div>
           </div>
         </div>

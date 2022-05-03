@@ -6,7 +6,7 @@
     justify-content: space-between;
     align-items: center;
     color: #7030a0;
-    padding: 1rem 10rem;
+    padding: 0 10vw;
     transition: all 0.5s ease;
     /* background-color:  rgba(0, 0, 0, 0.7); */
     z-index: 100;
@@ -14,7 +14,7 @@
 
 .nav.active{
     background: #000;
-    padding: .5rem 9rem;
+    padding: .5vh 9vh;
 }
 
 /* .nav.active .menu li{
@@ -35,20 +35,25 @@ morado letras  #7030a0;
 }
 
 .logo{
-    font-size: 35px;
     color:#fff;
     font-weight: 100;
     z-index: 2;
 }
+
+.logo-img{
+    height: 70%;
+    width: 70%;
+    object-fit: contain;
+}
 .menu{
-    font-size: 25px;
+    
     display: flex;
     z-index: 2;
-    border-radius: 15px;
+    border-radius: .3vh;
 }
 
 .menu li{
-    padding: 15px;
+    padding: 1.5vh;
     align-items: center;
     list-style: none;
     
@@ -58,6 +63,7 @@ morado letras  #7030a0;
     color: #7030a0;
     text-decoration: none;
     font-weight: bold;
+    font-size: 3.5vh;
     transition: all 0.5s ease;
 }
 
@@ -70,7 +76,7 @@ morado letras  #7030a0;
    
 .menu-btn{
     color: rgb(253, 252, 252);
-    font-size: 45px;
+    font-size: 5vh;
     display: none;
     cursor: pointer;
 }
@@ -84,7 +90,7 @@ morado letras  #7030a0;
         position: absolute;
         top: 0;
         left: 0;
-        width: 300px;
+        width: 30vw;
         height: 100vh;
         background: rgb(150, 138, 138);
         display: flex;

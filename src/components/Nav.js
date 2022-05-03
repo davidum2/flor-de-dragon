@@ -20,7 +20,7 @@ const Nav = () => {
     return (
        <nav className={fixNavBar}>
            <div className='logo'>
-             <img src={Logo} width='250'/>
+             <img src={Logo} className='logo-img'/>
            </div>
            <ul className='menu'>
                <li><Link to="/">Home</Link></li>
