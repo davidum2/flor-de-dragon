@@ -109,3 +109,33 @@
     background-color:#7030a0;
     color: #9be7df;
 }
+
+
+@media screen and (max-width:1024px) {
+
+    .welcome-tex{
+        padding: 10rem 1rem;
+        align-content: center;
+        z-index: 2;
+    }
+    
+
+    .div-container{
+        display: flex;
+        flex-direction: column;
+     }
+     .text-left{
+        margin: 2px;
+        /* border: solid 5px rgb(255, 251, 251); */
+        border-radius: 10px;
+        height: 20rem;
+        width: 100%;
+    }
+    .text-right{
+        margin: 2px;
+        /* border: solid 5px rgb(255, 251, 251); */
+        border-radius: 10px;
+        height: 20rem;
+        width: 100vw;
+    }
+}
