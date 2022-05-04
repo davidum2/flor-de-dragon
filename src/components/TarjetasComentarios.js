@@ -1,29 +1,23 @@
 import React from 'react'
 import {Conmentarios} from "./../repositori/comentarios"
 
-export const TarjetasComentarios = () => {
-  
-  
-    const [comentario, setComentario] = useState()
-    const [viewComentario, setViewComentario] = useState()
+import React from 'react'
 
-    useEffect(() => {
-      setComentario = Conmentarios 
-        
-      }, [])
+const TarjetasComentarios = () => {
+  
+  const [comentari, setComentari] = useState([])
+
+  useEffect(() => {
+    setComentari=Conmentarios
+  }, [])
     
-      const = <h2>
-          {comentario.texto}
-      </h2>
-
-
-  
-    return (
+  return (
     <div>
-        <div>
-
-        </div>
-        <div></div>
+      <p className='tarjet-text'>
+        
+      </p>
     </div>
   )
 }
+
+export default TarjetasComentarios

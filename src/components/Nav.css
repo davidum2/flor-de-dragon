@@ -34,15 +34,10 @@ morado letras  #7030a0;
     color: rgb(7, 7, 7);
 }
 
-.logo{
-    color:#fff;
-    font-weight: 100;
-    z-index: 2;
-}
 
 .logo-img{
-    height: 70%;
-    width: 70%;
+    height: 50%;
+    width: 50%;
     object-fit: contain;
 }
 .menu{
@@ -82,6 +77,11 @@ morado letras  #7030a0;
 }
 
 @media screen and (max-width:1024px) {
+    .logo-img{
+        height: 80%;
+        width: 80%;
+        object-fit: contain;
+    }
     .menu-btn{
         display: block;
     }

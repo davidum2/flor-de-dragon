@@ -23,7 +23,7 @@ const Home = () => {
                 </h2>
                 <br />
                 <h3>
-                  Más de 10 años cudando con el corazón a nuestros clientes
+                  Más de 10 años trabajando con el corazón y cuidando a nuestros clientes
                 </h3>
                 <br />
                 <p>
