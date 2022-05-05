@@ -1,5 +1,7 @@
 import React from 'react'
 import Vid from '../assets/images/Video.mp4'
+import TarjetasComentarios from '../components/TarjetasComentarios'
+
 import './Home.css'
 
 const Home = () => {
@@ -36,7 +38,7 @@ const Home = () => {
                 </div>
               </div>
               <div className='text-right'>
-               
+                <TarjetasComentarios/>
               </div>
             </div>
           </div>
