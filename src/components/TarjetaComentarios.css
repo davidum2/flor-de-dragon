@@ -1,7 +1,13 @@
+.tarjeta{
+    padding: 4vmin;
+}
+
+
+
 .texto-pequeño{
-    font-size: 10hv;
+    font-size: 3hv;
 }
 
 .texto-grande{
-    font-size: 20vh;
+    font-size: 4.5vh;
 }

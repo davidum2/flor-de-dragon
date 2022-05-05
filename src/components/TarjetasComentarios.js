@@ -36,7 +36,7 @@ const TarjetasComentarios = () => {
 
   return (
     <div>
-      <div className={tamañoFuente}>
+      <div className="tarjeta">
         <p className={tamañoFuente}>"...{textoEnVista.texto} ..."
         </p>
         <h3 className={tamañoFuente}>{textoEnVista.autor}</h3>
