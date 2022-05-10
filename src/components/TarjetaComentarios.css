@@ -1,13 +1,31 @@
 .tarjeta{
-    padding: 4vmin;
+    display: flex;
+    flex: 2;
+    text-align: justify;
+    align-items: center;
+    align-content: center;
+    padding: 5vmin;
 }
 
+.arrow{
+    height: 100%;
+    
+    padding: .5vw;
+    font-size: 5vh;  
+}
 
+.tarjeta h6{
+    text-align: right;
+    height: 20%;
+}
 
 .texto-pequeño{
-    font-size: 3hv;
+   
+    font-size: 4.3vh;
 }
 
 .texto-grande{
+    
     font-size: 4.5vh;
 }
+

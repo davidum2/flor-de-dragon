@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { comentarios } from "./../repositori/comentarios"
+import {FaAngleLeft, FaAngleRight } from "react-icons/fa";
 import './TarjetaComentarios.css'
 
 
@@ -9,7 +10,7 @@ const TarjetasComentarios = () => {
   const [comentario, setComentario] = useState(comentarios)
   const [i, setI] = useState(0)
   const [textoEnVista, setTextoEnVista] = useState(comentario[i])
-  const [tamañoFuente, setTamañoFuente] = useState('texto')
+  const [tamañoFuente, setTamañoFuente] = useState('texto-grande')
 
 
   const sumar = () => {
@@ -29,23 +30,24 @@ const TarjetasComentarios = () => {
 
   const proporcionDeTexto = () => {
     const tamañoString = textoEnVista.texto.length
-    tamañoString > 100 ? setTamañoFuente('texto-pequeño') : setTamañoFuente('texto-grande')
+    tamañoString <= 100 ? setTamañoFuente('texto-pequeño') : setTamañoFuente('texto-grande')
   }
 
   //setInterval(sumar,5000)
 
   return (
-    <div>
+    <>
+    <FaAngleLeft className="arrow" onClick={restar}/>
       <div className="tarjeta">
-        <p className={tamañoFuente}>"...{textoEnVista.texto} ..."
-        </p>
-        <h3 className={tamañoFuente}>{textoEnVista.autor}</h3>
-      </div>
-      <div>
-        <button onClick={sumar}>mas</button>
-        <button onClick={restar}>menos</button>
-      </div>
+      
+        <h5 className={tamañoFuente}>"...{textoEnVista.texto} ..."<br/>
+        <br/><i>{textoEnVista.autor}</i>
+        </h5>
+      
+    
     </div>
+    <FaAngleRight className="arrow" onClick={sumar}/>
+    </>
   )
 
 

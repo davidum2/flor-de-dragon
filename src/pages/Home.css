@@ -65,6 +65,8 @@
 }
 
 .text-right{
+    display: flex;
+    align-content: center;
     margin: 1vh;
     
     border-radius: 5vh;
