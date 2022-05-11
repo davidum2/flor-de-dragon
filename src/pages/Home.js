@@ -1,6 +1,7 @@
 import React from 'react'
 import Vid from '../assets/images/Video.mp4'
 import TarjetasComentarios from '../components/TarjetasComentarios'
+import TerapiasPrecio from '../components/TerapiasPrecio'
 
 import './Home.css'
 
@@ -44,9 +45,7 @@ const Home = () => {
           </div>
         </div>
         <div className='seccion'>
-          <section className='texto-home'>
-            lorem
-          </section>
+          <TerapiasPrecio/>
         </div>
       </div>
     </>
