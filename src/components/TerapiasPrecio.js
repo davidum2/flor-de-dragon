@@ -1,32 +1,29 @@
 import React, { useState } from 'react'
 import { terapias } from '../repositori/terapias'
+import TarjetaTerapias from './TarjetaTerapias'
 
 const TerapiasPrecio = () => {
 
-const [terapiasAray, setTerapiasAray] = useState([terapias]);
-
-const tarjetaCompleta = () => {for (let index = 0; index < terapiasAray.length; index++) {
-  const element = terapiasAray[index];
-return(
-  <div className="tag {index}">
-    <h1>{element.tipo}</h1>
-    <p>{element.descripcion}</p>
-    <h2>{element.precio}</h2>
-    <h2>{element.duracion}</h2>
-  </div>
-  
-)}}
+const [terapiasAray, setTerapiasAray] = useState(terapias);
 
 
+console.log('esta es ' + terapiasAray.length)
   return (
     <>
       <div className='container'>
         <div className="containert-tags">
-          {tarjetaCompleta}        
+          {terapiasAray.map(terapia => {
+            return (
+            <TarjetaTerapias
+               key={terapia.id}
+               tipo={terapia.tipo}
+               image={terapia.imageTerapia}
+               descripcion={terapia.descripcion}
+               precio={terapia.precio}
+               duracion={terapia.duracion}/>)
+          })}        
         </div>
       </div>
-
-    
     </>
   )
 }
