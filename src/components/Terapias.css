@@ -1,0 +1,31 @@
+
+
+.display-section{
+   height: 100%;
+    width: 100%;
+    display: flex;
+   margin: 2vh 4vw;
+   padding: 2vmax;
+ 
+   
+}
+
+
+.container-secction{
+
+    display: flex;
+    padding-top: 1vmax;
+    flex-direction: column;
+    align-items: center;
+}
+.titleSection{
+    font-size: 3.5vmax;
+    
+    font-family: 'Parisienne', cursive;
+}
+
+.containert-tags{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}

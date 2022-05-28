@@ -1,0 +1,45 @@
+.target{
+    display: flex;
+    flex-direction: column;
+    border-style: solid;
+    align-items: center;
+    transition: all 2s inherit;
+    padding: 1vmax;
+    margin: .5vmax;
+    border-radius: .5vmax;
+    width: 20%;
+    height: 60vh;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    border: solid .5vh rgb(6, 82, 112);
+
+    
+}
+
+.target:hover{
+    transform: scale(1.1);
+}
+.target:hover > p{
+    display: flex;
+    padding: 1.5rem;
+    text-align: center;
+    transition: all 2S inherit;
+}
+
+.target h1{
+    text-align: center;
+    padding: 1.5rem;
+    align-self: center;
+    font-size: 2vmax;
+}
+.target p{
+    padding: 2rem;
+    display: none;
+    text-align: center;
+    transition: all 2S inherit;
+}
+.target h2{
+    text-align: center;
+    padding: .5rem;
+    align-self: center;
+    font-size: 1.5vmax;
+}

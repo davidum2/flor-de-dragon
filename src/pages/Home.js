@@ -1,7 +1,7 @@
 import React from 'react'
 import Vid from '../assets/video/Video.mp4'
 import TarjetasComentarios from '../components/TarjetasComentarios'
-import TerapiasPrecio from '../components/TerapiasPrecio'
+import Terapias from '../components/Terapias'
 
 import './Home.css'
 
@@ -45,7 +45,7 @@ const Home = () => {
           </div>
         </div>
         <div className='seccion'>
-          <TerapiasPrecio/>
+          <Terapias/>
         </div>
       </div>
     </>

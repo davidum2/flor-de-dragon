@@ -23,13 +23,21 @@ export const terapias = [
 {
     id: 3,
     tipo: "Masaje Corporal",
-    imageTerapia:mandala2,
+    imageTerapia:mandala1,
     descripcion: "Terapia enfocada al cuerpo en general, diseñada para localizar las partes mas afectadas y restaurar la paz",
     precio:" $ 600.00 / $ 800.00",
     duracion:"60 / 90 min."
 },
 {
     id: 4,
+    tipo: "Masaje Corporal",
+    imageTerapia: mandala2,
+    descripcion: "Terapia enfocada al cuerpo en general, diseñada para localizar las partes mas afectadas y restaurar la paz",
+    precio:" $ 600.00 / $ 800.00",
+    duracion:"60 / 90 min."
+},
+{
+    id: 5,
     tipo: "Masaje Corporal",
     imageTerapia: mandala1,
     descripcion: "Terapia enfocada al cuerpo en general, diseñada para localizar las partes mas afectadas y restaurar la paz",

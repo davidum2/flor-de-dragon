@@ -17,13 +17,6 @@
     padding: .5vh 9vh;
 }
 
-/* .nav.active .menu li{
- background-color: #000;
-
-azul logo #9be7df
-morado letras  #7030a0;
-
-} */
 .nav.active .logo, .nav.active a{
     
     color: rgb(252, 246, 246);
