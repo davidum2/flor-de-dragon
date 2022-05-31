@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import { terapias } from '../repositori/terapias'
+
 import TarjetaTerapias from './Terapia'
 import './Terapias.css'
 
@@ -7,15 +8,17 @@ const Terapias = () => {
 
   const [terapiasAray, setTerapiasAray] = useState(terapias);
 
-
+ 
   console.log('esta es ' + terapiasAray.length)
   return (
     <>
-  
+   
       <div className="display-section">
         <div className='container-secction'>
 
           <h1 className="titleSection">Nuestras Terapias</h1>
+
+          
 
           <div className="containert-tags">
             {terapiasAray.map(terapia => {
@@ -31,7 +34,7 @@ const Terapias = () => {
           </div>
         </div>
       </div>
-      
+   
     </>
   )
 }

@@ -1,4 +1,5 @@
 .target{
+    background: white;
     display: flex;
     flex-direction: column;
     border-style: solid;
@@ -7,11 +8,11 @@
     padding: 1vmax;
     margin: .5vmax;
     border-radius: .5vmax;
-    width: 20%;
+    width: 18vw;
     height: 60vh;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
     border: solid .5vh rgb(6, 82, 112);
-
+    overflow: hidden;
     
 }
 
@@ -20,16 +21,20 @@
 }
 .target:hover > p{
     display: flex;
-    padding: 1.5rem;
-    text-align: center;
+    padding: .5rem;
+    text-align: justify;
     transition: all 2S inherit;
 }
 
+.divTitle{
+    height: 30%;
+}
 .target h1{
     text-align: center;
     padding: 1.5rem;
     align-self: center;
     font-size: 2vmax;
+    
 }
 .target p{
     padding: 2rem;
@@ -42,4 +47,35 @@
     padding: .5rem;
     align-self: center;
     font-size: 1.5vmax;
+}
+
+@media screen and (max-width:1024px) {
+
+    .target{
+       
+        width: 85vw;
+       height: 23vh;
+    }
+    .divImage{
+        size: 3rem;
+    }
+
+    .target h1{
+        text-align: center;
+        padding: .2rem;
+        align-self: center;
+        font-size: 2vmax;
+        
+    }
+    .target p{
+        padding: .5rem;
+        font-size: .8rem;
+        display: block;
+        text-align: justify;
+        transition: all 2S inherit;
+    }
+    .target:hover > .divImage{
+        display: none;
+        
+    }
 }
