@@ -2,12 +2,13 @@ import React from 'react'
 import Vid from '../assets/video/Video.mp4'
 import TarjetasComentarios from '../components/TarjetasComentarios'
 import Terapias from '../components/Terapias'
-
+import Paquetes from '../components/Paquetes'
 import './Home.css'
 
 const Home = () => {
   return (
     <>
+    
       <div className='container'>
         <div className='seccion'>
           <video className='video-background' autoPlay loop muted>
@@ -46,6 +47,9 @@ const Home = () => {
         </div>
         <div className='seccion'>
           <Terapias/>
+        </div>
+        <div className='seccion'>
+          <Paquetes/>
         </div>
       </div>
     </>
