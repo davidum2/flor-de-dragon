@@ -1,53 +1,78 @@
-.target{
-    background: white;
+.screenSplit-container{
+    display: flex;
+    align-items: center;
+    padding: 15rem, 0rem;
+    
+    /* flex-direction: row; */
+    background-color: rgb(243, 240, 240);
+}
+
+
+.screenSplit-container-inverso{
+    display: flex;
+    align-items: center;
+    padding: 15rem, 0rem;
+    flex-direction: row-reverse;
+    background-color: rgb(243, 240, 240);
+}
+
+.scrensplit-image-inverso{
+    padding: 0rem, 5rem;
+    height: 35rem;
+    width: 40%;
+    display: flex;
+    position: relative;
+    justify-content: start;
+}
+
+.scrensplit-image{
+    padding: 0rem, 5rem;
+    height: 35rem;
+    width: 40%;
+    display: flex;
+    position: relative;
+    justify-content: end;
+}
+
+.scrensplit-image img{
+    max-width: 30rem;
+    max-height: 30rem;
+}
+
+.screenSplit-text{
+    padding: 5rem;
+    height: 35rem;
+    width: 50%;
     display: flex;
     flex-direction: column;
-    border-style: solid;
+    position: relative;
     align-items: center;
-    transition: all 2s inherit;
-    padding: 1vmax;
-    margin: .5vmax;
-    border-radius: .5vmax;
-    width: 18vw;
-    height: 60vh;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-    border: solid .5vh rgb(6, 82, 112);
-    overflow: hidden;
+    text-align: center;
+    justify-content: start;
+}
+
+.titulo-paquete{
+    padding:2rem ;
+    font-size: 3.5rem;
+    color:blueviolet;
     
 }
 
-.target:hover{
-    transform: scale(1.1);
-}
-.target:hover > p{
-    display: flex;
-    padding: .5rem;
-    text-align: justify;
-    transition: all 2S inherit;
+.descripcion-paquete{
+    padding: 1rem;
+    font-size: 2.5rem;
 }
 
-.divTitle{
-    height: 30%;
-}
-.target h1{
-    text-align: center;
-    padding: 1.5rem;
-    align-self: center;
-    font-size: 2vmax;
-    
-}
-.target p{
-    padding: 2rem;
-    display: none;
-    text-align: center;
-    transition: all 2S inherit;
-}
-.target h2{
-    text-align: center;
+.precio-paquete{
     padding: .5rem;
-    align-self: center;
-    font-size: 1.5vmax;
+    font-size: 2rem;
 }
+
+.duracion-paquete{
+    padding: 1rem;
+    font-size: 2.5rem;
+}
+
 
 @media screen and (max-width:1024px) {
 
