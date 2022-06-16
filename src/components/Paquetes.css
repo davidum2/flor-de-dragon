@@ -1,18 +1,27 @@
-
-
-.display-section{
+.section-paquetes{
     display: flex;
-    align-items: center;
+align-items: center;
    height: 100%;
     width: 100%;
-    display: flex;
-   margin: 0;
-   padding: 3vmax;
-   background-color: rgb(252, 248, 248);
-    background-image: url(../assets/images/fondo\ transparente.png);
-   
+   margin: 0;    
 }
 
+.container-paquetes{
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    flex-direction: column;
+}
+
+.title-Paquetes{
+    display: block;
+    text-align: center;
+    font-size: 5rem;
+    padding: 4rem;
+}
+
+/*
 
 .container-secction{
     display: flex;
@@ -35,7 +44,7 @@
     flex-wrap: nowrap;
     align-items: center;
 }
-
+ */
 
 @media screen and (max-width:1024px) {
     .display-section{

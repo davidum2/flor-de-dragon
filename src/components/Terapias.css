@@ -8,8 +8,8 @@
     display: flex;
    margin: 0;
    padding: 3vmax;
-   background-color: antiquewhite;
-    background-image: url(../assets/images/fondo\ transparente.png);
+   background-color: rgb(241, 247, 248);
+    /* background-image: url(../assets/images/fondo\ transparente.png); */
    
 }
 

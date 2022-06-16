@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { paquete } from '../repositori/paquetes'
 
 import TarjetaPaquete from './Paquete'
-import './Paquete.css'
+import './Paquetes.css'
 
 const Paquete = () => {
 
@@ -13,14 +13,14 @@ const Paquete = () => {
   return (
     <>
    
-      <div className="display-section">
-        <div className='container-secction'>
+      <div className="section-paquetes">
+        <div className='container-paquetes'>
 
-          <h1 className="titleSection">Nuestros Paquetes</h1>
+          <h1 className="title-Paquetes">Nuestros Paquetes</h1>
 
           
 
-          <div className="containert-tags">
+          <div className="paquetes-tags">
             {paqueteAray.map(paquete => {
               return (
                 <TarjetaPaquete
