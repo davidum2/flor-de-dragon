@@ -6,22 +6,27 @@ const Paquete = ({ tipo, imageSource, descripcion, precio, duracion }) => {
 
 
   return (
-    <div className='target'>
-      <div className="divTitle">
+    <div className='screenSplit-container'>
+      <div className="titulo-paquete">
         <h1>{tipo}</h1>
       </div>
-      <div className="divImage">
-        <img src={imageSource} height="150" />
+
+      <div className="container-tag-paquete">
+        <div className="scrensplit-image">
+          <img src={imageSource} />
+        </div>
+
+
+        <div className="descripcion-paquete">
+          <h2>{descripcion}</h2>
+
+          <p>{duracion}</p>
+
+          <h3>{precio}</h3>
+        </div>
       </div>
-     
-        <p>{descripcion}</p>
-    
-      <div className="divPrice">
-        <h2>{precio}</h2>
-      </div>
-      <div className="divDuracion">
-        <h2>{duracion}</h2>
-      </div>
+
+
     </div>
   )
 }

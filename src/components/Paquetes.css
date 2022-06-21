@@ -21,6 +21,10 @@ align-items: center;
     padding: 4rem;
 }
 
+.paquetes-tags{
+    flex-direction: column;
+}
+
 /*
 
 .container-secction{
