@@ -15,16 +15,22 @@ align-items: center;
 }
 
 .title-Paquetes{
-    display: block;
     text-align: center;
-    font-size: 5rem;
-    padding: 4rem;
+    padding: 1rem;
+    font-size: 3.5vmax;
+    color:  rgb(6, 82, 112);
+    font-family: 'Parisienne', cursive;
 }
 
 .paquetes-tags{
     flex-direction: column;
 }
 
+.paquetes-tags  .screenSplit-container:nth-child(2n+1){
+      background-color: rgb(255, 254, 254);
+    
+    
+}
 /*
 
 .container-secction{

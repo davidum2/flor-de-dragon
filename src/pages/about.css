@@ -1,0 +1,60 @@
+
+.about-container{
+    background-color: rgb(240, 240, 240);
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}
+
+.title{
+    display: flex;
+    flex-direction: column;
+    margin: 0;;
+    padding: 7rem 3rem;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.logo-about{
+    max-width: 30rem;
+    max-height: 30rem;
+    filter: drop-shadow(0 2px 5px rgba(0, 0, 0, 0.7)); 
+}
+
+.descripcion-mesagge{
+    width: 80%;
+}
+
+
+.descripcion-biografia{
+    flex-direction: row;
+    display: flex;
+    width: 80%;
+    padding: 3rem
+}
+
+.descripcion-biografia img{
+    max-width: 30rem;
+    max-height: 30rem;
+    filter: drop-shadow(0 2px 5px rgba(0, 0, 0, 0.7)); 
+    padding: 2rem;
+}
+
+.text-biografia{
+    display: flex;
+    padding: 3rem;
+    font-size: 2rem;
+    text-align: justify;
+    align-items: center;
+}
+
+.descripcion-teripa-corporal{
+    flex-direction: row;
+}
+.descripcion-teripa-corporal img{
+    flex-direction: row;
+    max-width: 20rem;
+    max-height: 20rem;
+}

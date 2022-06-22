@@ -27,7 +27,7 @@
 
 .scrensplit-image{
     padding: 0rem, 5rem;
-    height: 35rem;
+    height: 25rem;
     width: 40%;
     display: flex;
     position: relative;
@@ -35,8 +35,8 @@
 }
 
 .scrensplit-image img{
-    max-width: 30rem;
-    max-height: 30rem;
+    max-width: 20rem;
+    max-height: 20rem;
 }
 
 .screenSplit-text{
@@ -52,8 +52,9 @@
 }
 
 .titulo-paquete{
+    font-family: 'Parisienne', cursive;
     padding:2rem ;
-    font-size: 3.5rem;
+    font-size: 2rem;
     color:blueviolet;
     
 }
@@ -62,14 +63,18 @@
     width: 60%;
     text-align: center;
     padding: 1rem;
-    justify-content: center;
-    font-size: 2.5rem;
+    justify-content: first baseline;
+    font-size: 2rem;
     display: flex;
     flex-direction: column;
 }
 
 .descripcion-paquete p{
-    font-size: 3rem;
+    font-size: 2rem;
+    padding: 1rem;
+}
+.descripcion-paquete h2 h3{
+    font-size: 2rem;
     padding: 1rem;
 }
 .precio-paquete{

@@ -1,5 +1,6 @@
 import Chakra from "../assets/images/mandala2.png"
 import Loto from "../assets/images/mandala1.png"
+import Mandala from "../assets/images/mandala3.jpg"
 
 
 export const paquete = [
@@ -22,7 +23,7 @@ export const paquete = [
 {
     id: 3,
     tipo: "Paquete Revitaliza",
-    imageTerapia: Loto,
+    imageTerapia: Mandala,
     descripcion: "2 Terapias Faciales y 1 Terapia Corporal",
     precio:" $ 1400.00",
     duracion:"Las Terapias deben tomarse en una semana"
